@@ -147,11 +147,10 @@ section div p {
 .flexwithinflex {
     position: absolute;
     left: 0;
-    bottom: 0;
-    border: 3px solid white;
-    background-color: var(--primary-background);
+    bottom: 5px;
+    border: 3px solid grey;
+    background-color: grey;
     color: var(--primary-color);
-    margin: 5px;
     padding: 10px;
 }
 
