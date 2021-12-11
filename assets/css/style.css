@@ -5,9 +5,6 @@
     --primary-color: white;
 }
 
-/* var(--primary-background)  */
-/* var(--primary-color) */
-
 * {
     box-sizing: border-box;
     padding: 0;
@@ -18,7 +15,7 @@ a {
     color: white;
 }
 
-/* Header styling */
+/* Header / Navigation styling */
 
 header {
     padding: 20px;
@@ -60,7 +57,7 @@ header nav ul li:hover {
 
 }
 
-/* Body Styling */
+/* Body / Banner / Sections Styling */
 
 body {
     position: relative;
@@ -134,7 +131,7 @@ section div p {
     position: absolute;
     left: 0;
     bottom: 0;
-    border: 3px solid grey;
+    border: 3px solid white;
     background-color: var(--primary-background);
     color: var(--primary-color);
     margin: 5px;
@@ -150,6 +147,34 @@ section div p {
     padding: 5px;
     position: relative;
     width: 49%;
+}
+
+.subbox2 {
+    display: flex;
+    border: 5px solid grey;
+    min-width: 100px;
+    min-height: 100px;
+    margin: 5px;
+    padding: 5px;
+    position: relative;
+    width: 49%;
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.subbox4 {
+    display: flex;
+    border: 5px solid grey;
+    min-width: 100px;
+    min-height: 100px;
+    margin: 5px;
+    padding: 5px;
+    position: relative;
+    width: 49%;
+    background-image: url("../images/construction.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .contactme  {
