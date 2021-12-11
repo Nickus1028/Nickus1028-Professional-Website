@@ -124,6 +124,9 @@ section div p {
     position: relative;
     width: 97%;
     min-height: 400px;
+    background-image: url("../images/professionalwebsite.png");
+    background-size: cover;
+    background-position: top;
     
 }
 
@@ -135,6 +138,7 @@ section div p {
     background-color: var(--primary-background);
     color: var(--primary-color);
     margin: 5px;
+    padding: 10px;
 }
 
 
@@ -147,6 +151,20 @@ section div p {
     padding: 5px;
     position: relative;
     width: 49%;
+}
+
+.subbox1 {
+    display: flex;
+    border: 5px solid grey;
+    min-width: 100px;
+    min-height: 100px;
+    margin: 5px;
+    padding: 5px;
+    position: relative;
+    width: 49%;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .subbox2 {
@@ -162,6 +180,21 @@ section div p {
     background-size: cover;
     background-position: center;
 }
+
+.subbox3 {
+    display: flex;
+    border: 5px solid grey;
+    min-width: 100px;
+    min-height: 100px;
+    margin: 5px;
+    padding: 5px;
+    position: relative;
+    width: 49%;
+    background-image: url("../images/robotgladiators.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
 
 .subbox4 {
     display: flex;
