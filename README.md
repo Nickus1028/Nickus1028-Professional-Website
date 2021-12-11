@@ -5,7 +5,7 @@
 <p>In this challenge we were tasked with creating a professional website for ourselves using HTML and CSS we have learned so far from scratch. </p>
 
 <h2>Page Screenshot</h2>
-<img src="https://github.com/Nickus1028/Nickus1028-Professional-Website/blob/main/assets/images/professionalwebsite.png?raw=true")></img>
+<img src="https://github.com/Nickus1028/Nickus1028-Professional-Website/blob/main/assets/images/professionalwebsite.jpg?raw=true")></img>
 
 <h2>Summary</h2>
 <ul>
