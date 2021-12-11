@@ -71,7 +71,7 @@ body {
 }
 
 .banner {
-    height: 800px;
+    height: 600px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/doggie.jpg");
@@ -92,7 +92,16 @@ body {
     }
 
 section {
-    display: flex
+    display: flex;
+    flex-grow: 1;
+
+}
+
+section article {
+    display:flex;
+    flex-wrap: wrap;
+    width: 1000px
+
 }
 
 /* Universal class for all leftside content */
@@ -118,7 +127,9 @@ section div p {
     padding: 5px;
     flex-grow: 1;
     position: relative;
+    width: 97%;
     min-height: 400px;
+    
 }
 
 .flexwithinflex {
@@ -128,13 +139,16 @@ section div p {
     border: 5px solid orange;
 }
 
+
 .subflex {
-    display: grid;
+    display: flex;
     border: 5px solid orange;
     min-width: 100px;
     min-height: 100px;
     margin: 5px;
     padding: 5px;
+    position: relative;
+    width: 49%;
 
 }
 
