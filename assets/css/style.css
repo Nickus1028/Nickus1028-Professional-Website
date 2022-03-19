@@ -135,7 +135,7 @@ section div p {
     position: relative;
     width: 97%;
     min-height: 400px;
-    background-image: url("../images/fruitfacts.jpg");
+    background-image: url("../images/4-the-record.jpg");
     background-size: cover;
     background-position: top;
     
@@ -160,7 +160,7 @@ section div p {
     padding: 5px;
     position: relative;
     width: 49%;
-    background-image: url("../images/weather-dashboard.jpg");
+    background-image: url("../images/fruitfacts.jpg");
     background-size: cover;
     background-position: center;
 }
